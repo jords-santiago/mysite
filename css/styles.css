@@ -54,21 +54,17 @@ a:hover {
 
 .c-img {
   width: 50%;
-  margin:5px 90px 5px 120px;
+  margin:5px 120px 5px 120px;
 }
 
 .carousel-item {
-  height: 12rem;
+  height: 14rem;
 }
 
 .copyright {
   color: #EAF6F6;
   font-size: 0.75rem;
   padding: 20px 0;
-}
-
-.cprojects-row {
-  text-align: left;
 }
 
 .github-link {
@@ -98,17 +94,17 @@ a:hover {
   margin: auto;
 }
 
+.projects-row {
+  margin: 100px 0 auto 50px;
+  text-align: left;
+}
+
 .python-img {
   width: 90%;
 }
 
 .pyprojects-caption {
   margin: auto;
-}
-
-.pyprojects-row {
-  margin: 100px 0 auto 50px;
-  text-align: left;
 }
 
 .top-container {
