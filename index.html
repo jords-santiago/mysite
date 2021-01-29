@@ -2,98 +2,181 @@
 <html>
 
 <head>
+  <!-- Required meta tags -->
   <meta charset="utf-8">
-  <title>James Michael Santiago</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
   <link rel="stylesheet" href="css/styles.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Do+Hyeon&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
   <link rel="icon" href="favicon.ico">
   <meta property="og:image" content="images/wekan.jpg">
+  <title>James Michael Santiago</title>
 </head>
 
 <body>
-  <div class="top-container">
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+  -->
+  <div class="container-fluid top-container">
     <div class="title-text">
-      <h1>James Michael Santiago</h1>
+      <h1 class="title-font">James Michael Santiago</h1>
       <h2>Former R&D Engineer, Software Engineer</h2>
     </div>
-    <img class="mountain" src="images/success-5597527_640.png" alt="success-5597527_640.png">
+    <img class="img-fluid mountain" src="images/success-5597527_640.png" alt="success-5597527_640.png">
   </div>
 
-  <div class="middle-container">
-    <div class="profile">
-      <img class="profilepic" src="images/wekan.jpg" alt="james-profile-img">
-      <div class="intro">
-        <p>
-          In a world full of whys, say "why not?". In a world full of "can't",
-          say "can do". In a world full of problems, we might as well solve them.
-          I am currently looking for opportunities in Research and Development
-          and Software Engineering.
-        </p>
-        <p>Up until its site closure, I worked as Software Developer at
-          Nokia Manila Technology Center with a position of Senior Specialist.
-          I maintained a test tool software used for performance testing of
-          Nokia's controller products. I also had a role of Fault Coordinator
-          where I monitored reported bugs.
-        </p>
-        <p>Before that, I was previously a Senior Hardware Engineer at Canon
-          Information Technologies Philippines, Inc. where I worked as a Design
-          Verification Engineer. I had experience as a Configuration Management
-          Lead, Quality Assurance Lead and Technical Lead in the various
-          projects that I have been a part of.
-        </p>
-        <p>I have a bachelor's degree in Electronics and Communications
-          Engineering from the University of the Philippines. The education and
-          experience I had there got me started in problem solving and
-          critical/creative thinking, skills that I still use to this day.
-        </p>
+  <div class="container-fluid middle-container">
+    <div class="row profile">
+      <div class="col-lg-4">
+        <img class="img-fluid profilepic" src="images/wekan.jpg" alt="james-profile-img">
+      </div>
+      <div class="col-lg-8">
+        <div class="intro">
+          <p>
+            In a world full of whys, say "why not?". In a world full of
+            "can't", say "can do". In a world full of problems, we might as
+            well solve them.
+          </p>
+          <p>
+            I took a break as my previous company closed for business during
+            the COVID-19 global pandemic.
+          </p>
+          <p>
+            Now, I am looking for opportunities in Research and Development
+            as I have been since my college days. I am very much interested
+            in new challenges with regards to Data Science as I have been
+            doing during my break. I am still into Software Engineering
+            as I have done throughout my professional life.
+          </p>
+          <p>
+            Up until its closure, I worked as Software Engineer at Nokia
+            Manila Technology Center with a position of Senior Specialist.
+            I maintained a test tool software implemented in C used for
+            performance testing of Nokia's controller products. I also had a
+            role of Fault Coordinator where I monitored bug reports.
+          </p>
+          <p>
+            Before that, I was previously a Senior Hardware Engineer at
+            Canon Information Technologies Philippines, Inc. where I worked
+            as a Design Verification Engineer. I had experience as a
+            Configuration Management Lead, Quality Assurance Lead and
+            Technical Lead in the various projects that I have been a
+            part of.
+          </p>
+          <p>
+            I have a bachelor's degree in Electronics and Communications
+            Engineering from the University of the Philippines. The education
+            and experience I had there got me started in problem solving and
+            critical/creative thinking, skills that I still use to this day.
+          </p>
+        </div>
       </div>
     </div>
     <hr>
-    <div class="projects">
-      <h2>My Projects</h2>
-      <p>
-        I have uploaded some personal projects I made, applying what I have
-        done professionally as well as from the online courses I accompished.
-      </p>
-      <div class="cprojects-row">
-        <img class="c-img" src="images/english-33781_640.png" alt="c-img">
-
-        <h3>C Projects</h3>
-        <p>
-          I have created some projects implemented in C and apply concepts
-          such as File I/O, Structures and dynamically-allocated linked lists.
-          (<a class="github-link" href="https://github.com/jords-santiago/SimpleNaturalLanguageProcessor_usingC" target="_blank">
-            Simple Natural Language Processor
-          </a>,
-          <a class="github-link" href="https://github.com/jords-santiago/SimpleGraphicsDescriptionLanguageInterpreter" target="_blank">
-            Simple Graphics Description Language Interpreter
-          </a>)
-        </p>
-
+    <div class="projectsintro top-container">
+      <h2>Featured Projects</h2>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="container-fluid carousel-item active">
+            <div class="CFeatureProject">
+              <h3>Simple Graphics Description Language Interpreter</h3>
+              <p>
+                Interprets file written in a Simple Graphics Description Language to output a Bitmap Image file
+              </p>
+              <p><a class="btn btn-sm btn-primary" href="https://github.com/jords-santiago/SimpleNaturalLanguageProcessor_usingC" role="button">Code in GitHub</a></p>
+            </div>
+          </div>
+          <div class="container-fluid carousel-item">
+            <h3>OpenCV, Pillow, PyTesseract Test Project</h3>
+            <p>
+              Applies functions from OpenCV, Pillow and PyTesseract on test images
+            </p>
+            <p><a class="btn btn-sm btn-primary" href="https://github.com/jords-santiago/OpenCVPillowPyTesseract-TestProject" role="button">Code in GitHub</a></p>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
       </div>
-      <div class="pyprojects-row">
-        <img class="python-img" src="images/pexels-christina-morillo-1181671.jpg" alt="python-img">
-
-        <h3>Python/Jupyter Notebook Projects</h3>
-        <p>
-          These are projects to apply Data Visualization and Modelling using
-          pandas, numpy, scikit-learn, seaborn, etc. (
-          <a class="github-link" href="https://github.com/jords-santiago/Kobe-and-the-Lakers-Applied-Visualizations" target="_blank">
-            Kobe and Lakers Visualization
-          </a>,
-          <a class="github-link" href="https://github.com/jords-santiago/Kobe-and-Lakers-Relationship" target="_blank">
-            Kobe and Lakers' Relationship
-          </a>,
-          <a class="github-link" href="https://github.com/jords-santiago/OpenCVPillowPyTesseract-TestProject" target="_blank">
-            OpenCV, Pillow, PyTesseract Test Project
-          </a>,
-          <a class="github-link" href="https://github.com/jords-santiago/Using_Boston_Housing_Data_From_Sklearn" target="_blank">
-            Modelling Example using Boston Housing Data from scikit-learn
-          </a>
-          )
-        </p>
-
+    </div>
+    <div class="container-fluid middle-container ">
+      <div class="row cprojects-row">
+        <div class="cimgcol col-lg-4">
+          <img class="c-img img-fluid" src="images/english-33781_640.png" alt="c-img">
+        </div>
+        <div class="col-lg-8">
+          <h3>C Projects</h3>
+          <p>
+            I have some projects implemented in C and apply concepts
+            such as File I/O, Structures and dynamically-allocated linked lists.
+          </p>
+          <ul>
+            <li>
+              <a class="github-link" href="https://github.com/jords-santiago/SimpleNaturalLanguageProcessor_usingC" target="_blank">
+                Simple Natural Language Processor
+              </a>
+            </li>
+            <li>
+              <a class="github-link" href="https://github.com/jords-santiago/SimpleGraphicsDescriptionLanguageInterpreter" target="_blank">
+                Simple Graphics Description Language Interpreter
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row pyprojects-row">
+        <div class="col-lg-8 pyprojects-caption">
+          <h3>Python/Jupyter Notebook Projects</h3>
+          <p>
+            These are projects to apply Data Visualization and Modelling using
+            pandas, numpy, scikit-learn, seaborn, etc.
+          </p>
+          <ul>
+            <li>
+              <a class="github-link" href="https://github.com/jords-santiago/Kobe-and-the-Lakers-Applied-Visualizations" target="_blank">
+                Kobe and Lakers Visualization
+              </a>
+            </li>
+            <li>
+              <a class="github-link" href="https://github.com/jords-santiago/Kobe-and-Lakers-Relationship" target="_blank">
+                Kobe and Lakers' Relationship
+              </a>
+            </li>
+            <li>
+              <a class="github-link" href="https://github.com/jords-santiago/OpenCVPillowPyTesseract-TestProject" target="_blank">
+                OpenCV, Pillow, PyTesseract Test Project
+              </a>
+            </li>
+            <li>
+              <a class="github-link" href="https://github.com/jords-santiago/Using_Boston_Housing_Data_From_Sklearn" target="_blank">
+                Modelling Example using Boston Housing Data from scikit-learn
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <img class="python-img" src="images/pexels-christina-morillo-1181671.jpg" alt="python-img">
+        </div>
       </div>
     </div>
   </div>
@@ -101,7 +184,7 @@
   <div class="bottom-container">
     <a class="footer-link" href="https://www.linkedin.com/in/james-michael-santiago/" target="_blank">LinkedIn</a>
     <a class="footer-link" href="https://github.com/jords-santiago" target="_blank">GitHub</a>
-    <p class="copyright">© 2020 James Michael Santiago</p>
+    <p class="copyright">© 2021 James Michael Santiago</p>
   </div>
 </body>
 
