@@ -25,15 +25,24 @@ h3 {
   font-family: 'Arimo', sans-serif;
 }
 
+h4 {
+  color: #ffe227;
+  line-height: 2;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.25rem;
+}
+
 p {
   line-height: 2;
 }
 
 hr {
-  border: dotted #EAF6F6 6px;
+  border: dotted #EAF6F6;
   border-bottom: none;
   width: 4%;
-  margin: 100px auto;
+  margin: 50px auto;
 }
 
 a {
@@ -47,11 +56,6 @@ a:hover {
   color: #bbbbbb;
 }
 
-.bottom-container {
-  background-color: #bc6ff1;
-  padding: 50px 0 20px;
-}
-
 .c-img {
   width: 50%;
   margin:5px 120px 5px 120px;
@@ -59,6 +63,28 @@ a:hover {
 
 .carousel-item {
   height: 16rem;
+}
+
+.container-colored {
+  background-color: #bc6ff1;
+  padding-top: 20px;
+}
+
+.container-copyright {
+  padding: 20px 0 20px;
+}
+
+.container-intro {
+  margin: 50px 0;
+}
+
+.container-projects {
+  margin: 100px 0;
+}
+
+.container-quote {
+  margin: 0 20px;
+  padding: 30px 30px;
 }
 
 .copyright {
@@ -75,23 +101,18 @@ a:hover {
 }
 
 .intro {
-  margin: auto 50px auto 50px;
+  margin: 10px 50px 10px 50px;
   text-align: justify;
-}
-
-.middle-container {
-  margin: 100px 0;
 }
 
 .mountain {
   display: block;
   max-width: 90%;
-  /* height: auto; */
   margin: auto;
 }
 
 .profilepic {
-  margin: auto;
+  margin: 10px 0;
 }
 
 .projects-row {
@@ -107,10 +128,11 @@ a:hover {
   margin: auto;
 }
 
-.top-container {
-  background-color: #bc6ff1;
-  position: relative;
-  padding-top: 20px;
+.quote-caption {
+  /* padding-left: 50px;
+  padding-right: 50px; */
+  margin: auto;
+  padding: 0 20px;
 }
 
 @media (max-width: 600px) {
