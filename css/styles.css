@@ -39,13 +39,6 @@ p {
   line-height: 2;
 }
 
-hr {
-  border: dotted #EAF6F6;
-  border-bottom: none;
-  width: 4%;
-  margin: 50px auto;
-}
-
 a {
   color: #fff76a;
   font-family: 'Arimo', sans-serif;
@@ -59,7 +52,7 @@ a:hover {
 
 .c-img {
   width: 50%;
-  margin: 5px 120px 5px 120px;
+  margin: 5px 100px 5px 100px;
 }
 
 .carousel-item {
@@ -80,12 +73,12 @@ a:hover {
 }
 
 .container-projects {
-  margin: 100px 0;
+  margin: 50px 0;
 }
 
 .container-quote {
-  margin: 0 50px;
-  padding: 0 50px;
+  background-color: #bc6ff1;
+  padding: 50px 50px;
 }
 
 .container-title {
@@ -134,7 +127,7 @@ a:hover {
 }
 
 .projects-row {
-  margin: 100px 0 auto 50px;
+  margin: 50px 0 auto 50px;
   text-align: left;
 }
 
